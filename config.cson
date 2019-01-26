@@ -1,0 +1,34 @@
+"*":
+  core:
+    disabledPackages: [
+      "linter"
+      "linter-python"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "atom-material-syntax"
+    ]
+    useTreeSitterParsers: false
+  "exception-reporting":
+    userId: "ae5f9c1d-8b0f-4d5f-ad2e-d6edd80a6925"
+  "ide-python":
+    python: "python3"
+  kite:
+    editorMetricsEnabled: "no"
+    showEditorVacanciesNotificationOnStartup: false
+    showWelcomeNotificationOnStartup: false
+  "linter-ui-default":
+    panelHeight: 300
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
+  welcome:
+    showOnStartup: false
